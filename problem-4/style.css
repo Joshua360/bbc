@@ -1,0 +1,57 @@
+
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+img{
+    width: 150px;
+}
+
+.wrap{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.price p{
+    border: solid 1px black;
+    padding: 4px 2px;
+}
+
+.total p{
+    border: solid 1px black;
+    text-align: center;
+    background-color: white;
+    /* width: 100px; */
+
+}
+
+.bitem{
+    padding: 10px;
+    margin: 5px;
+
+}
+
+.bottom{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 40px;
+
+}
+
+.total{
+    flex-grow: 1;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+#sumtotal{
+    border: none;
+    padding: 7px;
+}
